@@ -60,15 +60,7 @@ export class MemberlistComponent implements OnInit {
       field: 'phone',
       filter: true,
       editable: true
-    },
-      {
-        field: '',
-        cellRenderer: 'btnCellRenderer',
-        cellRendererParams: {
-          clicked: function(field) {
-            alert(`${field} was clicked`);
-          }}
-      }
+    }
       ]
   }
   status: any;
