@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17a96c80-d885-492c-bf78-8900694342c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientside/src/app/members/models/IMember.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/addmembers/addmembers.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/addmembers/addmembers.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/addmembers/addmembers.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/addmembers/addmembers.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/memberlist/memberlist.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/memberlist/memberlist.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/memberlist/memberlist.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/memberlist/memberlist.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/updatemembers/updatemembers.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/updatemembers/updatemembers.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/updatemembers/updatemembers.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/components/updatemembers/updatemembers.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/members.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/models/IUser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/services/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/members/services/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/about/about.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/about/about.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/about/about.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/about/about.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/nav/nav.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/nav/nav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/nav/nav.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/root/components/nav/nav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/img/bg-orders.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/font-awesome-5.8.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/lightbox/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/lightbox/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/lightbox/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/mdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/bootstrap/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/IUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/IMember.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routers/usersRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/memberRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nZFHFwWPbluuT4RKtJQzzRXMH7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="C:\Users\prasa\Desktop\GitHub\Pamten\clientside\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prasa\Desktop\GitHub\Pamten\clientside\src\app\members\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my self\Pamten\client\src\assets" />
+      <recent name="D:\my self\Pamten\client\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17a96c80-d885-492c-bf78-8900694342c9" name="Default Changelist" comment="" />
+      <created>1611589616749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611589616749</updated>
+      <workItem from="1611589619651" duration="5683000" />
+      <workItem from="1611657289071" duration="1702000" />
+      <workItem from="1611672374554" duration="8878000" />
+      <workItem from="1611718326557" duration="8924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

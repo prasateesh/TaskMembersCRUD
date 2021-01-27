@@ -1,0 +1,87 @@
+
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 text-success">Add New Member</p>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur assumenda consectetur, culpa cupiditate dolore dolores eveniet excepturi inventore itaque numquam optio, quaerat voluptas. Eius impedit nemo obcaecati? Quam, quas!</p>
+    </div>
+  </div>
+  <!--<pre>{ | json}}</pre>-->
+  <div class="row">
+    <div class="col-md-5 animated zoomInUp delay-1s">
+      <!-- Empty form Data -->
+      <div *ngIf="emptyFields" class="alert alert-danger alert-dismissible animated zoomIn">
+        <button class="close" data-dismiss="alert">
+          <i class="fa fa-times-circle"></i>
+        </button>
+        <span class="font-weight-bold">Please fill in the Fields</span>
+      </div>
+      <small>{{member | json}}</small>
+      <div class="card">
+        <div class="card-header bg-success text-white">
+          <p class="h4">Add Member</p>
+        </div>
+        <div class="card-body bg-light">
+          <form (submit)="submitCreateOrder()">
+            <div class="form-group">
+              <input
+                  #name="ngModel"
+                  [class.is-valid]="name.touched&&name.valid"
+                  [class.is-invalid]="name.touched&&name.invalid"
+                  type="text" required name="name"  id="memname"
+                  [(ngModel)]="member.name" class="form-control" placeholder="Enter Member Name"/>
+              <div *ngIf="name.touched&&name.invalid">
+                <small class="text-danger">Enter Member Name</small>
+              </div>
+              <small *inIf="name.touched&&name.valid" class="text-success"> Looks Good!...</small>
+            </div>
+            <div class="form-group">
+              <input
+                  #gender="ngModel"
+                  [class.is-valid]="gender.touched&&gender.valid"
+                  [class.is-invalid]="gender.touched&&gender.invalid"
+                  type="text" required name="gender" id="memgender"
+                  [(ngModel)]="member.gender" class="form-control" placeholder="Enter Member Gender"/>
+              <div *ngIf="gender.touched&&gender.invalid">
+                <small class="text-danger">Enter Member Gender</small>
+              </div>
+              <small *inIf="gender.touched&&gender.valid" class="text-success"> Looks Good!...</small>
+            </div>
+            <div class="form-group">
+              <input
+                  #phone="ngModel"
+                  [class.is-valid]="phone.touched&&phone.valid"
+                  [class.is-invalid]="phone.touched&&phone.invalid"
+                  [(ngModel)]="member.phone" required pattern="[0-9]{10}" type="text" name="phone" id="memphone" class="form-control"
+                  placeholder="Enter Phone Number"/>
+              <div *ngIf="phone.touched&&phone.invalid">
+                <small class="text-danger">Enter Phone Number</small>
+              </div>
+              <small *inIf="phone.touched&&phone.valid" class="text-success"> Looks Good!...</small>
+            </div>
+            <div class="form-group">
+              <input
+                  #email="ngModel"
+                  [class.is-valid]="email.touched&&email.valid"
+                  [class.is-invalid]="email.touched&&email.invalid"
+                  [(ngModel)]="member.email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" name="email" id="mememail" class="form-control"
+                  placeholder="Enter Email Id"/>
+              <div *ngIf="email.touched&&email.invalid">
+                <small class="text-danger">Enter Email Id</small>
+              </div>
+              <small *inIf="email.touched&&email.valid" class="text-success"> Looks Good!...</small>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Create" class="btn btn-success"/>
+              <input type="button" class="btn btn-warning" (click)="Cancel()" value="Cancel">
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+    </div>
+  </div>
+</div>
+
