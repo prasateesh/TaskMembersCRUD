@@ -1,1 +1,41 @@
-<p>members works!</p>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 text-success">Members List</p>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur assumenda consectetur, culpa cupiditate dolore dolores eveniet excepturi inventore itaque numquam optio, quaerat voluptas. Eius impedit nemo obcaecati? Quam, quas!</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <a routerLink="/members/addmember" class="btn btn-success btn-sm">Create Member</a>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <table class="table table-hover bg-dark text-white table-striped table-success text-center" pagination="true" paginationPageSize=3>
+        <thead>
+        <tr>
+          <td>SNO</td>
+          <td>Name</td>
+          <td>Gender</td>
+          <td>Email Id</td>
+          <td>Phone Number</td>
+        </tr>
+        </thead>
+        <tbody class="text-center bg-white text-dark ">
+        <tr *ngFor="let member of members">
+          <td>{{member._id.substr(member._id.length-3)}}</td>
+          <td>{{member.name}}</td>
+          <td>{{member.gender}}</td>
+          <td>{{member.email}}</td>
+          <td>{{member.phone}}</td>
+          <td>
+            <a routerLink="/members/{{member._id}}" class="btn btn-secondary text-white btn-sm" name="update">Update</a>
+            <button (click)="clickDeleteProduct(member._id)" class="btn btn-danger btn-sm">Delete</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {IMember} from "./models/IMember";
+import {MemberService} from "./services/member.service";
 
 @Component({
   selector: 'app-members',
@@ -7,9 +9,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MembersComponent implements OnInit {
 
-  constructor() { }
+  public errorMessage:string;
+  public emptyFields:boolean;
+  public members:IMember[]=[];
+
+  constructor(public  memberService:MemberService) { }
 
   ngOnInit(): void {
+    this.memberService.getAllMember().subscribe((data)=>{
+      this.members=data;
+    },(error)=>{
+      this.errorMessage=error;
+    });
   }
-
+  public clickDeleteProduct(memberId){
+    this.memberService.deleteMember(memberId).subscribe((data) => {
+      this.memberService.getAllMember().subscribe((data) => {
+        this.members = data;
+      }, (error) => {
+        console.log(error);
+        this.errorMessage = error;
+      });
+    }, (error) => {
+      console.log(error);
+      this.errorMessage = error;
+    })
+  }
 }
